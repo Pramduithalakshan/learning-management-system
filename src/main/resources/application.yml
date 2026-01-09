@@ -1,5 +1,3 @@
 spring:
-  datasource:
-    url: ${URL}
-    username: ${USERNAME}
-    password: ${PASSWORD}
+  profiles:
+    active: local
