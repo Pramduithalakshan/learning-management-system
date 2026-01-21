@@ -17,7 +17,7 @@ public class Student {
     private String id;
     private String firstName;
     private String lastName;
-    private Double nic;
+    private String nic;
     private String address;
     private String phone;
     private String city;

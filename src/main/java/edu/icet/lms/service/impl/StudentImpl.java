@@ -6,7 +6,6 @@ import edu.icet.lms.repository.StudentRepository;
 import edu.icet.lms.service.StudentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
@@ -16,7 +15,7 @@ public class StudentImpl implements StudentService {
     private final StudentRepository repository;
     private final StudentMapper studentMapper;
     @Override
-    public void addStudent(@RequestBody StudentDto student) {
+    public void addStudent( StudentDto student) {
         repository.save(studentMapper.toEntity(student));
     }
 

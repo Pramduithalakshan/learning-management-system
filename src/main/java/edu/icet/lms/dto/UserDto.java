@@ -9,12 +9,9 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class StudentDto {
+public class UserDto {
     private String id;
-    private String firstName;
-    private String lastName;
-    private String nic;
-    private String address;
-    private String phone;
-    private String city;
+    private String username;
+    private String password;
+    private String role;
 }
