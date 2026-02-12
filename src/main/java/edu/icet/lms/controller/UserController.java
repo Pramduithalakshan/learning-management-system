@@ -2,7 +2,6 @@ package edu.icet.lms.controller;
 
 import edu.icet.lms.dto.UserDto;
 import edu.icet.lms.service.impl.UserImpl;
-import edu.icet.lms.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.authentication.AuthenticationManager;
